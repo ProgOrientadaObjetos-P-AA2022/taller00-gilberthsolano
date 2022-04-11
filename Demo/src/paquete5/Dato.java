@@ -11,11 +11,13 @@ package paquete5;
  */
 public class Dato {
     
-    public static int obtenerNumeroHombres(){
-        return 200111;
+    public  int obtenerNumeroHombres(){
+        int obtenerNumeroHombres=200111;
+        return obtenerNumeroHombres;
     }
     
-    public static int obtenerNumeroMujeres(){
-        return 200211;
+    public  int obtenerNumeroMujeres(){
+        int obtenerNumeroMujeres=200211;
+        return obtenerNumeroMujeres;
     }
 }

@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 package paquete2;
-
+import paquete1.Mensaje;
+import paquete3.Valor;
+import paquete4.Palabra;
+import paquete5.Dato;
 
 /**
  *
@@ -12,12 +15,16 @@ package paquete2;
  */
 public class Demo {
 
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Mensaje.obtenerFrase();
+        Palabra.obtenerPalabra();
+         
         
-        System.out.printf();
+        
     }
     
 }

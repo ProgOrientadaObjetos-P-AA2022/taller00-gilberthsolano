@@ -11,7 +11,7 @@ package paquete3;
  */
 public class Valor {
     
-    public static int obtenerHabitantes(){
-        return Dato.obtenerNumeroHombres() + Dato.obtenerNumeroMujeres();
+    public static int obtenerHabitantes(int dato1, int dato2){
+        return dato1.obtenerNumeroHombres() + dato2.obtenerNumeroMujeres();
     }
 }
